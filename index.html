@@ -1,0 +1,155 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Navbar</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          >Yemekhenno <img src="img/yemekhenno.png" style="width: 100px" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Anasayfa</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tatlılar</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Menüler
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Adana Menusü</a></li>
+                <li><a class="dropdown-item" href="#">Şiş Menüsü</a></li>
+                <li><a class="dropdown-item" href="#">Lahmacun Menüsü</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex my-2">
+            <input
+              class="form-control me-3"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-info" type="submit">Arama</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-4" style="background-image: url(img/arkalar.jpg)">
+      <div class="row">
+        <div
+          class="col-sm-12 col-md-6 col-xl-4 mb-4 d-flex justify-content-center"
+        >
+          <div class="card" style="width: 20rem; height: 25rem">
+            <img
+              src="https://images.pexels.com/photos/7866189/pexels-photo-7866189.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              class="card-img-top img-fluid w-75 mx-auto"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">ADANALI</h5>
+              <p class="card-text">
+                Muhtemelen ülkedeki en iyi mekana hoşgeldiniz.
+              </p>
+              <a href="#" class="btn btn-danger">Detaylar </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-sm-12 col-md-6 col-xl-4 mb-4 d-flex justify-content-center"
+        >
+          <div class="card" style="width: 20rem; height: 25rem">
+            <img
+              src="https://images.pexels.com/photos/4316018/pexels-photo-4316018.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              class="card-img-top img-fluid w-75 mx-auto"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">TAVUK ŞİŞ</h5>
+              <p class="card-text">
+                Muhtemelen ülkedeki en iyi mekana hoşgeldiniz.
+              </p>
+              <a href="#" class="btn btn-danger">Detaylar </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-sm-12 col-md-6 col-xl-4 mb-4 d-flex justify-content-center"
+        >
+          <div class="card" style="width: 20rem; height: 25rem">
+            <img
+              src="https://images.pexels.com/photos/7545570/pexels-photo-7545570.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              class="card-img-top img-fluid w-75 mx-auto"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">LAHMACUN</h5>
+              <p class="card-text">
+                Muhtemelen ülkedeki en iyi mekana hoşgeldiniz.
+              </p>
+              <a href="#" class="btn btn-danger">Detaylar </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="
+        container-fluid
+        d-flex
+        justify-content-between
+        p-3
+        bg-dark
+        text-light
+        mb-1
+        mt-5
+      "
+    >
+      <div>
+        <i class="fas fa-phone text-warning"></i>
+        <span class="d-none d-md-inline">+90 555 55 55</span>
+        <i class="fab fa-whatsapp text-warning ms-3"></i>
+        <span class="d-none d-md-inline">+90 555 55 55</span>
+      </div>
+      <div>
+        <i class="fab fa-twitter text-info mx-2"></i>
+        <i class="fab fa-youtube text-info mx-2"></i>
+        <i class="fab fa-instagram text-info mx-2"></i>
+        <span class="d-none d-lg-inline">#yemekhenno</span>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
